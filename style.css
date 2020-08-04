@@ -1,0 +1,97 @@
+body{
+  background-color: #00264d;
+  text-align: center;
+}
+#level-title{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 3.3rem;
+  margin: 50px 50px 50px 50px;
+  line-height: 1.2;
+  color: #ffffe6;
+}
+.btn{
+  height:200px;
+  width:200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  display: inline-block;
+  margin-left: 25px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.container{
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.game-over{
+  background-color: red;
+  opacity: 0.8;
+}
+/*For medium devices*/
+@media(min-width:992px) and (max-width:1199px){
+  .btn{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+  }
+  #level-title{
+    font-size: 2.7rem;
+  }
+}
+/*For small devices*/
+@media(min-width:768px) and (max-width:991px){
+  .btn{
+    display: inline-block;
+    height:130px;
+    width: 130px;
+    margin-left: 12px;
+  }
+  #level-title{
+    font-size: 2.4rem;
+  }
+}
+/*For extra small devices*/
+@media(min-width:524px) and (max-width: 767px){
+  .btn{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  #level-title{
+    font-size: 1.9rem;
+  }
+}
+/*For extra extra small devices*/
+@media(min-width:500px) and (max-width:523px){
+  .btn{
+    display: inline-block;
+    height:70px;
+    width:70px;
+    margin-left: 10px;
+  }
+  #level-title{
+    font-size: 1.7rem;
+  }
+}
